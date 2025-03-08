@@ -1,0 +1,279 @@
+/* Root styles */
+:root {
+  font-family: "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #333;
+  background-color: #f4f4f4;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+/* Root Container */
+#root {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Headings */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Navbar */
+.navbar {
+  background: #007bff;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.logo {
+  font-size: 1.8rem;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  padding: 10px;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #f8f9fa;
+}
+
+/* Contact Form */
+.contact-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  padding: 50px;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 500px;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.contact-form h2 {
+  font-size: 2.8rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Form Inputs */
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  padding: 14px;
+  margin: 12px 0;
+  border: 2px solid #6a11cb;
+  border-radius: 6px;
+  font-size: 1rem;
+  background: #f8f9fa;
+  outline: none;
+  transition: border 0.3s;
+  color: black;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus,
+.contact-form select:focus {
+  border-color: #2575fc;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 14px;
+  background: #ff7eb3;
+  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #ff4d79;
+}
+
+@media (max-width: 768px) {
+  .contact-form {
+    width: 90%;
+  }
+}
+
+/* Blog List */
+.blog-list-container {
+  max-width: 1100px;
+  margin: 50px auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.blog-list h2 {
+  font-size: 1.75rem;
+  color: #333;
+  
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-input, .filter-dropdown, .filter-date {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.blog-filters {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.blog-filters input,
+.blog-filters select {
+  padding: 12px;
+  font-size: 1rem;
+  border: 2px solid #6a11cb;
+  border-radius: 6px;
+  outline: none;
+  width: 30px;
+}
+
+.blog-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Blog Card */
+.blog-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.blog-card h3 {
+  color: #333;
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.blog-card p {
+  color: #555;
+  font-size: 1rem;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 12px 15px;
+  margin: 5px;
+  border: none;
+  background: #6a11cb;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.pagination button:hover {
+  background: #2575fc;
+}
+
+.pagination button:disabled {
+  background: #5b5858;
+  cursor: not-allowed;
+}
+
+.search-input {
+  width: 200px;
+  background: white; 
+  color: black; 
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 4px;
+}
+
