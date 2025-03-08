@@ -6,9 +6,6 @@
 Blog Contact App
 A React + Vite web application for displaying blog posts and a contact form. This application allows users to browse blog posts, view detailed content, and reach out via the contact form.
 
-🚀 Live Demo
-🔗 View Deployed App on Vercel (Replace with your actual deployment link)
-
 📌 Features
 ✅ Display a list of blog posts with titles and summaries
 ✅ "Read More" button to view the full blog content
