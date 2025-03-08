@@ -1,12 +1,13 @@
-# React + Vite
+🚀 Live Demo 🔗 https://blog-contact-app.vercel.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Blog Contact App A React + Vite web application for displaying blog posts and a contact form. This application allows users to browse blog posts, view detailed content, and reach out via the contact form.
 
-Currently, two official plugins are available:
+📌 Features ✅ Display a list of blog posts with titles and summaries ✅ "Read More" button to view the full blog content ✅ Contact form for user inquiries ✅ React Router for seamless navigation ✅ Responsive design for both desktop and mobile ✅ Optimized performance using Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠️ Tech Stack Frontend: React, Vite, React Router Styling: CSS State Management: React Hooks API Handling: Axios Deployment: Vercel Version Control: Git & GitHub
 
-## Expanding the ESLint configuration
+Installation & Setup 1️⃣ Clone the Repository git clone https://github.com/Sujeet011/blog-contact-app.git cd blog-contact-app 2️⃣ Install Dependencies npm install 3️⃣ Run the Development Server npm run dev
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🙌 Contributing Contributions are welcome! Feel free to submit issues or create pull requests.
+
+📞 Contact For any inquiries, please reach out via [sujeet7992370626@gmail.com] or use the contact form in the app.
