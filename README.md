@@ -27,7 +27,7 @@ Version Control: Git & GitHub
 
  Installation & Setup
 1️⃣ Clone the Repository
-git clone https://github.com/yourusername/blog-contact-app.git
+git clone https://github.com/Sujeet011/blog-contact-app.git
 cd blog-contact-app
 2️⃣ Install Dependencies
 npm install
